@@ -51,15 +51,59 @@ p{
 
 
 /* ----------- Grid --------- */
-/* -------------------------- */
+
 .col-container{
   margin: 3rem 0;
 }
 
+/*----
+@media screen and (max-width: 600px) {
+	
+	picture{
+		float:left;
+		margin:1%;
+		display:inline;
+		
+	}
+}
 
+@media screen and (max-width: 800px) {
+	
+	picture{
+		float:left;
+		margin:1%;
+		display:inline;
+	}
+}
+-----*/
+@media screen and (max-width: 1020px) {
+	
+	picture{
+		float:left;
+		margin:1%;
+		display:inline;
+	}
+}
 
+@media screen and (max-width: 1024px) {
+	
+	picture{
+		float:left;
+		margin:1%;
+		display:inline;
+	
+	}
+}
 
-
+@media screen and (min-width: 1024px) {
+	
+	picture{
+		float:left;
+		margin:1%;
+		display:inline;
+	
+	}
+}
 
 
 
@@ -68,6 +112,7 @@ p{
   background: #111;
   text-align: center;
   color: #fff;
+  clear:both;
 }
 
 
