@@ -34,6 +34,10 @@ p{
   margin: 0 auto;
 }
 
+.main{
+  max-width: 1024px;
+  margin: 0 auto;
+}
 
 
 
@@ -56,26 +60,7 @@ p{
   margin: 3rem 0;
 }
 
-/*----
-@media screen and (max-width: 600px) {
-	
-	picture{
-		float:left;
-		margin:1%;
-		display:inline;
-		
-	}
-}
 
-@media screen and (max-width: 800px) {
-	
-	picture{
-		float:left;
-		margin:1%;
-		display:inline;
-	}
-}
------*/
 @media screen and (max-width: 1020px) {
 	
 	picture{
@@ -95,14 +80,17 @@ p{
 	}
 }
 
+
 @media screen and (min-width: 1024px) {
 	
 	picture{
 		float:left;
-		margin:1%;
-		display:inline;
-	
+		margin-left:3%;
+		margin-right:0;
+		display:block;
+		width:30%;
 	}
+	
 }
 
 
