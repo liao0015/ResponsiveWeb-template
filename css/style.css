@@ -61,15 +61,6 @@ p{
 }
 
 
-@media screen and (max-width: 1020px) {
-	
-	picture{
-		float:left;
-		margin:1%;
-		display:inline;
-	}
-}
-
 @media screen and (max-width: 1024px) {
 	
 	picture{
